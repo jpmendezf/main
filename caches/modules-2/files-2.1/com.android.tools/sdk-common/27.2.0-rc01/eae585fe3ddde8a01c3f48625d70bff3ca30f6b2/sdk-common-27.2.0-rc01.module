@@ -1,0 +1,305 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools",
+    "module": "sdk-common",
+    "version": "27.2.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "jlvi3e3hkzflnogl672y5wgd2m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools",
+          "module": "sdklib",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "builder-test-api",
+          "version": {
+            "requires": "4.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "builder-model",
+          "version": {
+            "requires": "4.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.android.tools.ddms",
+          "module": "ddmlib",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.android.tools.analytics-library",
+          "module": "shared",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk15on",
+          "version": {
+            "requires": "1.56"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.56"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "javax.inject",
+          "module": "javax.inject",
+          "version": {
+            "requires": "1"
+          }
+        },
+        {
+          "group": "org.jetbrains.intellij.deps",
+          "module": "trove4j",
+          "version": {
+            "requires": "1.0.20181211"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "aapt2-proto",
+          "version": {
+            "requires": "4.1.0-alpha01-6193524"
+          }
+        },
+        {
+          "group": "xerces",
+          "module": "xercesImpl",
+          "version": {
+            "requires": "2.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-common-27.2.0-rc01.jar",
+          "url": "sdk-common-27.2.0-rc01.jar",
+          "size": 1638029,
+          "sha512": "0cfbbb75313f5d5a220bb75ca70ce90c007c30648e831a87dc7acc13e0cafd73413b235470236b4780dc161ee8f2a4f5db3b2bc8a949186c605399f85135568d",
+          "sha256": "a46782203f93e8eec19eb98a3ee216a103f7cb4c43ebb2b177f8b76797ea34ac",
+          "sha1": "9855d8207bcf00ec32a4f536e10f6d86034a736b",
+          "md5": "007a93633d3fe705f4ea6ebb9cfada95"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools",
+          "module": "sdklib",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "builder-test-api",
+          "version": {
+            "requires": "4.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "builder-model",
+          "version": {
+            "requires": "4.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.android.tools.ddms",
+          "module": "ddmlib",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.android.tools.analytics-library",
+          "module": "shared",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk15on",
+          "version": {
+            "requires": "1.56"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.56"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "javax.inject",
+          "module": "javax.inject",
+          "version": {
+            "requires": "1"
+          }
+        },
+        {
+          "group": "org.jetbrains.intellij.deps",
+          "module": "trove4j",
+          "version": {
+            "requires": "1.0.20181211"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "aapt2-proto",
+          "version": {
+            "requires": "4.1.0-alpha01-6193524"
+          }
+        },
+        {
+          "group": "xerces",
+          "module": "xercesImpl",
+          "version": {
+            "requires": "2.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-common-27.2.0-rc01.jar",
+          "url": "sdk-common-27.2.0-rc01.jar",
+          "size": 1638029,
+          "sha512": "0cfbbb75313f5d5a220bb75ca70ce90c007c30648e831a87dc7acc13e0cafd73413b235470236b4780dc161ee8f2a4f5db3b2bc8a949186c605399f85135568d",
+          "sha256": "a46782203f93e8eec19eb98a3ee216a103f7cb4c43ebb2b177f8b76797ea34ac",
+          "sha1": "9855d8207bcf00ec32a4f536e10f6d86034a736b",
+          "md5": "007a93633d3fe705f4ea6ebb9cfada95"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sdk-common-27.2.0-rc01-javadoc.jar",
+          "url": "sdk-common-27.2.0-rc01-javadoc.jar",
+          "size": 929401,
+          "sha512": "2ab553a5d9ccc4d11394546c67fdd8be3c323f846cca06b9b4052f679323194b2c84e27d8a9a04f57d991985fbeb96089a847bb1c694a4dfd13cdba010fd63c3",
+          "sha256": "bd73bb1c2c516097e033380e8b2b7b347743a0da47ad0ccdb81db3f1347c72c4",
+          "sha1": "469ded70406d14ad330e10256d360a3f59f1143e",
+          "md5": "3d15c104fcb3310f87c6ecf50cf9cd96"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sdk-common-27.2.0-rc01-sources.jar",
+          "url": "sdk-common-27.2.0-rc01-sources.jar",
+          "size": 814759,
+          "sha512": "983a4f1820089b0ac6eb5468644d1f8537b078730072b6e8c43f5e862434131e74c6a54c7acb445230bb8fe6dadd9321fa2b3815c08d6f5fe316f0b7e51b9e63",
+          "sha256": "b96a06d4e569fe5441adef53e4ea8850e81f46beb380f0edd4da2fe50e3b9430",
+          "sha1": "7ed19c0ee40bd608af1aa760bd75b059f662851e",
+          "md5": "0c00099c3ff6519ac92e8ed1671ba6f6"
+        }
+      ]
+    }
+  ]
+}

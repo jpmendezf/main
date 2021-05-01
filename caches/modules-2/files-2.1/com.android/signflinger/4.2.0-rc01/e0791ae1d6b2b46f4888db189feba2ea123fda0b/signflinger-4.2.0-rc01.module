@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android",
+    "module": "signflinger",
+    "version": "4.2.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "jlvi3e3hkzflnogl672y5wgd2m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "apksig",
+          "version": {
+            "requires": "4.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.android",
+          "module": "zipflinger",
+          "version": {
+            "requires": "4.2.0-rc01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "signflinger-4.2.0-rc01.jar",
+          "url": "signflinger-4.2.0-rc01.jar",
+          "size": 15208,
+          "sha512": "40d0e755ad7e6c5fea114bda0168ca5e4dde333839ae0ea605c6884b86130572fc7d88fb01fc6db72e5bc604c487cd1dd31d0e0cf867548226a237a8f8aa61cf",
+          "sha256": "1aae670d7579ad3e0382b26db8e11397beb6dcb81e1e5ccb7807d543a1d79fdc",
+          "sha1": "c2cfd576da0cf7cc886e3f1910a813dc6ce74dc2",
+          "md5": "3d27a7eee8f69c425f3b739ac21884aa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "apksig",
+          "version": {
+            "requires": "4.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.android",
+          "module": "zipflinger",
+          "version": {
+            "requires": "4.2.0-rc01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "signflinger-4.2.0-rc01.jar",
+          "url": "signflinger-4.2.0-rc01.jar",
+          "size": 15208,
+          "sha512": "40d0e755ad7e6c5fea114bda0168ca5e4dde333839ae0ea605c6884b86130572fc7d88fb01fc6db72e5bc604c487cd1dd31d0e0cf867548226a237a8f8aa61cf",
+          "sha256": "1aae670d7579ad3e0382b26db8e11397beb6dcb81e1e5ccb7807d543a1d79fdc",
+          "sha1": "c2cfd576da0cf7cc886e3f1910a813dc6ce74dc2",
+          "md5": "3d27a7eee8f69c425f3b739ac21884aa"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "signflinger-4.2.0-rc01-javadoc.jar",
+          "url": "signflinger-4.2.0-rc01-javadoc.jar",
+          "size": 28454,
+          "sha512": "dbedd18f9404f8998415660918342751ce41a91a9ab2a9e140b4a61b5602280a64a21019fc60c64d8f6916e52190c4d7c2ebb1248fdc566b654238f25ad2a55d",
+          "sha256": "77c4b473d1a78157b002bef7df648e76b5973b83f4d373b4b581d5a56170b498",
+          "sha1": "49f0f6668e6f47bbadf72f55c02ddc2cd3df95b7",
+          "md5": "ab8bbd763e94af2d270d2b4a92e695c8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "signflinger-4.2.0-rc01-sources.jar",
+          "url": "signflinger-4.2.0-rc01-sources.jar",
+          "size": 9341,
+          "sha512": "5125dc29f2dc26c2496629957fb13429997f3561e231c5a886da900c73b70e853faa028b20b1b3972e8e4dcf214b9ce99f4322fa4da21902373074dce8cbaf2e",
+          "sha256": "c825fc761dd6b28cbf431c0128ecf1b3b0e3f3d697c54bfc7f6187df721c9595",
+          "sha1": "39613cedc4cdcfd8dd74fe3b41db16d370ce02dc",
+          "md5": "61cdfeb27e3ff78f026411605b043267"
+        }
+      ]
+    }
+  ]
+}

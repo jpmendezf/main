@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools.build",
+    "module": "aapt2-proto",
+    "version": "4.2.0-rc01-7147631",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "jlvi3e3hkzflnogl672y5wgd2m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aapt2-proto-4.2.0-rc01-7147631.jar",
+          "url": "aapt2-proto-4.2.0-rc01-7147631.jar",
+          "size": 673861,
+          "sha512": "39319d5e2b8252c1b751fce6cca25a2e8112cbc6671716610ea1a09005a7eb52dcb104a0d9cea49c87589829209f17051335e21f457f4745407b6e908dd60b72",
+          "sha256": "a6d8700e7be11b286b8bdc360bee2ef920197cc14c1cd00070cc57f62c8fdceb",
+          "sha1": "9a77eab115b537c8e90395bf60f955b23b214fc0",
+          "md5": "e6603f94af3e2c7547f34ddcf48714d1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aapt2-proto-4.2.0-rc01-7147631.jar",
+          "url": "aapt2-proto-4.2.0-rc01-7147631.jar",
+          "size": 673861,
+          "sha512": "39319d5e2b8252c1b751fce6cca25a2e8112cbc6671716610ea1a09005a7eb52dcb104a0d9cea49c87589829209f17051335e21f457f4745407b6e908dd60b72",
+          "sha256": "a6d8700e7be11b286b8bdc360bee2ef920197cc14c1cd00070cc57f62c8fdceb",
+          "sha1": "9a77eab115b537c8e90395bf60f955b23b214fc0",
+          "md5": "e6603f94af3e2c7547f34ddcf48714d1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aapt2-proto-4.2.0-rc01-7147631-javadoc.jar",
+          "url": "aapt2-proto-4.2.0-rc01-7147631-javadoc.jar",
+          "size": 261,
+          "sha512": "023d7942303184a0b376271499662694f0abd17d0384fa3d3d6c46fc0161ac83b286ccdfb22d1d96916515c9a210c8a7efd1f3f7af8617d1371057bbd5dc38c1",
+          "sha256": "df691a40866bb088384935cd5ce1942af2f674be77d509e55651cd3c06c79318",
+          "sha1": "9f7a8dff608464505582392f2f174314b885ebdd",
+          "md5": "e587a70fa71d22b8fdfc3bed93af7896"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aapt2-proto-4.2.0-rc01-7147631-sources.jar",
+          "url": "aapt2-proto-4.2.0-rc01-7147631-sources.jar",
+          "size": 181337,
+          "sha512": "9107bacc9aed1b95240cafcf2055f1ccf0c8a9c67cf9428b3d98659aabaf466aab35dfa5b0b2ed243499d71b59740554ee3002985b85dd3d570ca33bc47b23ca",
+          "sha256": "e469012fe5fcc177c818eb81f9a6c59836ce4a64028049647e856f99447a9242",
+          "sha1": "95ea563719e4860e2fcad2cf9109f56ace613dd3",
+          "md5": "aac32863b7ef8cb471b7afcb0fdf3b40"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools.build",
+    "module": "builder-test-api",
+    "version": "4.2.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "jlvi3e3hkzflnogl672y5wgd2m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.ddms",
+          "module": "ddmlib",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "builder-test-api-4.2.0-rc01.jar",
+          "url": "builder-test-api-4.2.0-rc01.jar",
+          "size": 15492,
+          "sha512": "155cbe60bc268b6b3ed61515f509124e0f9fcdddd2da16d48414ab90ef93f159bedea8545f655bf7667ea833458d84dd71c52cff6d0d2349dddaa9848f892cc8",
+          "sha256": "7a3a4f8f89574f0e90d47017abaa0846cda4068f5bca695bca4129db526be588",
+          "sha1": "02867f3c44d08c552d8b1e714131c151de88f99e",
+          "md5": "e6c79dc6951984746b6a5cfcdd177594"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.ddms",
+          "module": "ddmlib",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "builder-test-api-4.2.0-rc01.jar",
+          "url": "builder-test-api-4.2.0-rc01.jar",
+          "size": 15492,
+          "sha512": "155cbe60bc268b6b3ed61515f509124e0f9fcdddd2da16d48414ab90ef93f159bedea8545f655bf7667ea833458d84dd71c52cff6d0d2349dddaa9848f892cc8",
+          "sha256": "7a3a4f8f89574f0e90d47017abaa0846cda4068f5bca695bca4129db526be588",
+          "sha1": "02867f3c44d08c552d8b1e714131c151de88f99e",
+          "md5": "e6c79dc6951984746b6a5cfcdd177594"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "builder-test-api-4.2.0-rc01-javadoc.jar",
+          "url": "builder-test-api-4.2.0-rc01-javadoc.jar",
+          "size": 48647,
+          "sha512": "c9099e426f63b020932ada5f8c93f917d0b900c585f5c993cefc1be539a07f5702e1fa49e483d4823ba95acd4c5b81b2d71f023e1122f7d214d6ee11741ad531",
+          "sha256": "d2f0de8992556d65a33534b28e17a1430d141ae77e2bc5c244bbdbe9a73cd0a4",
+          "sha1": "da66b6fb221fcdca081fa2c8230d27ee614181c9",
+          "md5": "71f3e261710c6c8c9b63263c59876627"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "builder-test-api-4.2.0-rc01-sources.jar",
+          "url": "builder-test-api-4.2.0-rc01-sources.jar",
+          "size": 13590,
+          "sha512": "0ce6924807f4641e0145c3c180ac153260ff71e3ce8740b5be18b96116c0085351531b8d83a3fcf1701ba031b8196ac4447b7342058e39bd3ca1d6da744cc557",
+          "sha256": "3217957287a95743896b3e6f7457ed8564396312d185def8d08b8e92b351abbd",
+          "sha1": "0c02fa9db0030ea4f5fa6e2781f74656c3541be0",
+          "md5": "22cb7ece6d6fca726e2540da4ec3a94d"
+        }
+      ]
+    }
+  ]
+}

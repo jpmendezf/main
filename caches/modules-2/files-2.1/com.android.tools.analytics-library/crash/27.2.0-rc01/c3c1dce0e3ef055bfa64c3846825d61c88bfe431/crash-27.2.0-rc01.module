@@ -1,0 +1,175 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools.analytics-library",
+    "module": "crash",
+    "version": "27.2.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "jlvi3e3hkzflnogl672y5wgd2m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools",
+          "module": "annotations",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "28.1-jre"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpmime",
+          "version": {
+            "requires": "4.5.6"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore",
+          "version": {
+            "requires": "4.4.10"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crash-27.2.0-rc01.jar",
+          "url": "crash-27.2.0-rc01.jar",
+          "size": 13616,
+          "sha512": "96d05097f7e037de1c3956b54b510ea69f7cb7371d36384544472e3eeabf84b5f9019e493a4e060b9784c25938a785096fc2efd1e3144a87f5f0d8a20b54c38d",
+          "sha256": "079cf19f28861c84fb3ebb5e195d96723e9d7302d5e3a73e2caadcea3b80a2d2",
+          "sha1": "9f4fad5fce76c7c83df6e740131011228bd7e075",
+          "md5": "b34b8ddd22e1ba50f35d950e2bdc5268"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools",
+          "module": "annotations",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "28.1-jre"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpmime",
+          "version": {
+            "requires": "4.5.6"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore",
+          "version": {
+            "requires": "4.4.10"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crash-27.2.0-rc01.jar",
+          "url": "crash-27.2.0-rc01.jar",
+          "size": 13616,
+          "sha512": "96d05097f7e037de1c3956b54b510ea69f7cb7371d36384544472e3eeabf84b5f9019e493a4e060b9784c25938a785096fc2efd1e3144a87f5f0d8a20b54c38d",
+          "sha256": "079cf19f28861c84fb3ebb5e195d96723e9d7302d5e3a73e2caadcea3b80a2d2",
+          "sha1": "9f4fad5fce76c7c83df6e740131011228bd7e075",
+          "md5": "b34b8ddd22e1ba50f35d950e2bdc5268"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "crash-27.2.0-rc01-javadoc.jar",
+          "url": "crash-27.2.0-rc01-javadoc.jar",
+          "size": 31677,
+          "sha512": "5f5a89d20407ebc340fb718f7c3956e936eb09ebc16c46f057b91d6753e030ac4f68e95f345800ec6927475e83f893d2a42e2a64fce6bc2925e28846b8d013a8",
+          "sha256": "d2e15744d8c4ddea81cbba6f753e0deefca20a425073885f001daede30e985c0",
+          "sha1": "37f41d9300e8d8635e0ffb9e23ba849275e98fe7",
+          "md5": "0012861ec253d300c311182a6b7bbf90"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "crash-27.2.0-rc01-sources.jar",
+          "url": "crash-27.2.0-rc01-sources.jar",
+          "size": 10684,
+          "sha512": "f85260586217579044aa1e49bae2bd285e0abd6704a88b76d6a8676c713dc7a5a947340ccc0b78c0815638ce44c4798d30bf540ba250c3f9c8afff87293a0037",
+          "sha256": "93ba4b8b83e680d99c545fe6ec390b81374eec014011f6befbb231ca1c325e69",
+          "sha1": "430cee52eef0cf5253f16aa88e5405b552e2cf09",
+          "md5": "e33d6d995ed12d0377865a27e896ed52"
+        }
+      ]
+    }
+  ]
+}

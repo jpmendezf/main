@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.databinding",
+    "module": "databinding-common",
+    "version": "4.2.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "jlvi3e3hkzflnogl672y5wgd2m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "databinding-common-4.2.0-rc01.jar",
+          "url": "databinding-common-4.2.0-rc01.jar",
+          "size": 16110,
+          "sha512": "987cb0aeee5f42de0c1a1883e452d5d7d7bab1ec75924e2ffd3d0ef40a33d02893c9d97e4efdf35db57c5693bfd791807e9bcb3634d806e64ec9eb3b59310241",
+          "sha256": "678ec4c22c6ce1496e54dcb5b461c3bef048e5c121e25bb8b8e40300eb59ac52",
+          "sha1": "e90cc703fcfc15e722755598a6660698e20702c3",
+          "md5": "7a58c86ef35c53090291a0b22ec7346b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "databinding-common-4.2.0-rc01.jar",
+          "url": "databinding-common-4.2.0-rc01.jar",
+          "size": 16110,
+          "sha512": "987cb0aeee5f42de0c1a1883e452d5d7d7bab1ec75924e2ffd3d0ef40a33d02893c9d97e4efdf35db57c5693bfd791807e9bcb3634d806e64ec9eb3b59310241",
+          "sha256": "678ec4c22c6ce1496e54dcb5b461c3bef048e5c121e25bb8b8e40300eb59ac52",
+          "sha1": "e90cc703fcfc15e722755598a6660698e20702c3",
+          "md5": "7a58c86ef35c53090291a0b22ec7346b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "databinding-common-4.2.0-rc01-javadoc.jar",
+          "url": "databinding-common-4.2.0-rc01-javadoc.jar",
+          "size": 70190,
+          "sha512": "155ca5177752c5cceebf24bfffdc692ac95610f0b62a86319b6a37edc373e0832c9759b007cef8a6105965de4d83d9b0d5180da0ec0e2c0a6217b4772b7dbfd7",
+          "sha256": "47f737f2b612a96dfec8d060edd1f7870920797bee6c10301a993cd125db3492",
+          "sha1": "9edf69a708392a6b814f5d9c28f5d76ec02168fa",
+          "md5": "ec2ed9c761994b75ce4b77e257b6d0cd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "databinding-common-4.2.0-rc01-sources.jar",
+          "url": "databinding-common-4.2.0-rc01-sources.jar",
+          "size": 45950,
+          "sha512": "38b42ca3717e3774efe115ad89e2d03b0ba45263fa0c74dff68ec3680f035e75a08e1b43719e0629619c505597c2ebc7504c25703f5e103da98a5bdeef378e3f",
+          "sha256": "44e25621b4ae1d15f1653b73cafd35a8961ecd1c74d5f060677f6eff804151ff",
+          "sha1": "a26d0a34b12ad79e97dc088a6fb11236ad7ccde3",
+          "md5": "3704b643be0ea4102b558dc84d3be6d2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools",
+    "module": "sdklib",
+    "version": "27.2.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "jlvi3e3hkzflnogl672y5wgd2m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.layoutlib",
+          "module": "layoutlib-api",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "dvlib",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "repository",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.12"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpmime",
+          "version": {
+            "requires": "4.5.6"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore",
+          "version": {
+            "requires": "4.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdklib-27.2.0-rc01.jar",
+          "url": "sdklib-27.2.0-rc01.jar",
+          "size": 637275,
+          "sha512": "2a84915f27df973b9c2df52b4865e07e92de4ccead96d081b6be8e8bea3c16b278dbcf31ed9e2e49d81d567b3d69a2a79703a60a531a0382b768ee3cc203aef9",
+          "sha256": "4b78edee73e55f795217e9b72b0b2a22e70df77e2cdede63014305bb5dd1332c",
+          "sha1": "9429ff37a53602d7f96c9ecd97ce8b301f2e9dc4",
+          "md5": "354203545359852d3908d557836c8cca"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.layoutlib",
+          "module": "layoutlib-api",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "dvlib",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "repository",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.12"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpmime",
+          "version": {
+            "requires": "4.5.6"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore",
+          "version": {
+            "requires": "4.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdklib-27.2.0-rc01.jar",
+          "url": "sdklib-27.2.0-rc01.jar",
+          "size": 637275,
+          "sha512": "2a84915f27df973b9c2df52b4865e07e92de4ccead96d081b6be8e8bea3c16b278dbcf31ed9e2e49d81d567b3d69a2a79703a60a531a0382b768ee3cc203aef9",
+          "sha256": "4b78edee73e55f795217e9b72b0b2a22e70df77e2cdede63014305bb5dd1332c",
+          "sha1": "9429ff37a53602d7f96c9ecd97ce8b301f2e9dc4",
+          "md5": "354203545359852d3908d557836c8cca"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sdklib-27.2.0-rc01-javadoc.jar",
+          "url": "sdklib-27.2.0-rc01-javadoc.jar",
+          "size": 574276,
+          "sha512": "64ebfa497c3f796a87e14438915115b8cdfe10e1773d990a5188f9e8c9d02a0563b13914050cb4c1572d68cba7cfbb540e7ed3a013be523bb67d1c8c4c361553",
+          "sha256": "f7f3d6ef94d72a886a094527920661fedd00bd1da427ade7edf4a83404cab4bd",
+          "sha1": "f607ce3be08d3d2973a7aae0ea0d0eb79e305078",
+          "md5": "b349ad0040ef73c44689b35a06451938"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sdklib-27.2.0-rc01-sources.jar",
+          "url": "sdklib-27.2.0-rc01-sources.jar",
+          "size": 1029802,
+          "sha512": "d038c9b39afdefc5984781a17ac6102a8b0e87b41e092672bcc239311582fe083b2dc67329d319ecf501bf8c28f6017e04bc95882daca1acba9a5f31d481fcd0",
+          "sha256": "6aec8c7a44cd1a7dd53f6f6ba3a2247549a7e5ee8e189bd9ff777678c8a56866",
+          "sha1": "b93d08425a9265aa0f339277f4ef6ed58b5cb14f",
+          "md5": "ee5e19bb25c82d2a39d3525ce1bb990b"
+        }
+      ]
+    }
+  ]
+}

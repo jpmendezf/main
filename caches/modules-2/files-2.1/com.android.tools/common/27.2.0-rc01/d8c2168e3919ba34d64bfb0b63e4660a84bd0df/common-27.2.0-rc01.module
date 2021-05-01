@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools",
+    "module": "common",
+    "version": "27.2.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "jlvi3e3hkzflnogl672y5wgd2m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools",
+          "module": "annotations",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "28.1-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-27.2.0-rc01.jar",
+          "url": "common-27.2.0-rc01.jar",
+          "size": 311056,
+          "sha512": "962b441f238880f493639481e0035a2970de83be8c6c0be5a777ee2a57e655a9691296540a7dff3d0ddbdf169a6e41ff830776563fa7cee7c4926ea415379aee",
+          "sha256": "b2e9f5490e27f6d40c2fd2070cfee9c42cb2384df0aaa89f656f9860522386b5",
+          "sha1": "4f1b36f24bdaa94875b815ed432223a4bef94534",
+          "md5": "46e1cc492e8deea2306af36217e2eff9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "annotations",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "28.1-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-27.2.0-rc01.jar",
+          "url": "common-27.2.0-rc01.jar",
+          "size": 311056,
+          "sha512": "962b441f238880f493639481e0035a2970de83be8c6c0be5a777ee2a57e655a9691296540a7dff3d0ddbdf169a6e41ff830776563fa7cee7c4926ea415379aee",
+          "sha256": "b2e9f5490e27f6d40c2fd2070cfee9c42cb2384df0aaa89f656f9860522386b5",
+          "sha1": "4f1b36f24bdaa94875b815ed432223a4bef94534",
+          "md5": "46e1cc492e8deea2306af36217e2eff9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "common-27.2.0-rc01-javadoc.jar",
+          "url": "common-27.2.0-rc01-javadoc.jar",
+          "size": 458791,
+          "sha512": "31046b8264999dff6b1fee1a1863add9525eae804ff1e1bf856b405855cd1dfe458eb612c0a0bab6fbbb2e0bd60f7f3378240fb1d7c29a634c94e13338658569",
+          "sha256": "07256a1779c5ff0f55b1fd3c13bb88a48fe0a6d19e5fcf6843c3685bf32ebceb",
+          "sha1": "f1015908cd1d86e7feb277e35b81ca3638361fb4",
+          "md5": "acb2de7e5ea8c2a093d660eae1bfa4cc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "common-27.2.0-rc01-sources.jar",
+          "url": "common-27.2.0-rc01-sources.jar",
+          "size": 201910,
+          "sha512": "7aac4fdb7bf6b815a2bae2c5334d4f92126dd224f059afeaec11b30521e901bfbefa3461d1d19ebd608f75ac9cf7b3b5db591515c309c5dddae5e8327c91143f",
+          "sha256": "9b21c57728ee01baa6555541c4876fd8b341d36cc7aa37247babea3ba35dd31c",
+          "sha1": "ccca7407da8c55275ee88e2ef525c6508e886a7f",
+          "md5": "0f73decb88f2a4f8ca64bc897f7d991f"
+        }
+      ]
+    }
+  ]
+}

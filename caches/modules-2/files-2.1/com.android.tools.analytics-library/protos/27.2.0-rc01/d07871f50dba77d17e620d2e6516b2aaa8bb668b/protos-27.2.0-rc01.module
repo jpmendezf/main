@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools.analytics-library",
+    "module": "protos",
+    "version": "27.2.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "jlvi3e3hkzflnogl672y5wgd2m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "protos-27.2.0-rc01.jar",
+          "url": "protos-27.2.0-rc01.jar",
+          "size": 4528442,
+          "sha512": "8313e9aeb2b4cb2d7659fd2fb6590195c77421035547a6c0be3700b5f470da931010a1312ad976a7a83260510f975afb7bda43a48099fd5b5087ce54f0dc3803",
+          "sha256": "10ae83bf4ee7f30bd2aa7b90ee801d3bb22b7065acb324e9e6ceb5fd232139d1",
+          "sha1": "c4dfdeb14d70b486e6e60c41473c9f5fd67f5b05",
+          "md5": "bbb90c8d7a33bb0628195ed9aa603513"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "protos-27.2.0-rc01.jar",
+          "url": "protos-27.2.0-rc01.jar",
+          "size": 4528442,
+          "sha512": "8313e9aeb2b4cb2d7659fd2fb6590195c77421035547a6c0be3700b5f470da931010a1312ad976a7a83260510f975afb7bda43a48099fd5b5087ce54f0dc3803",
+          "sha256": "10ae83bf4ee7f30bd2aa7b90ee801d3bb22b7065acb324e9e6ceb5fd232139d1",
+          "sha1": "c4dfdeb14d70b486e6e60c41473c9f5fd67f5b05",
+          "md5": "bbb90c8d7a33bb0628195ed9aa603513"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "protos-27.2.0-rc01-javadoc.jar",
+          "url": "protos-27.2.0-rc01-javadoc.jar",
+          "size": 261,
+          "sha512": "b0d113478a59dbf91f77824fade4b09df8f78f8303b5af51ca5156ee821699ab157bfca630c8db01d2e472b6fb4eb5472725fbf999f068c106ac4aae17289a7f",
+          "sha256": "b46d560e98ddb1c846ab55f793b59f4d24a76929ffff7eb6bbdb23ceb8119c50",
+          "sha1": "b5a3f0ffbe42c8a87f8e665b2df005bd6d25d2ba",
+          "md5": "c02de01f3920eae448c2120b0ac695b5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "protos-27.2.0-rc01-sources.jar",
+          "url": "protos-27.2.0-rc01-sources.jar",
+          "size": 4070,
+          "sha512": "87ad1b159bf0b8b82ac1c1c7184e949d9990ab7b1742eb629707a298304f36c19e64b3f21279f5e2913379a28a52412b2da6a803e9ac738b9ddea08e3527a2ec",
+          "sha256": "5f91652b7061c470e13847587196252a5dbf46d8b103fec94832486de701dd70",
+          "sha1": "6476231149b6f8655dbd3089895b8f031c86c1ad",
+          "md5": "2059b74023ac3f05bb84bfe24b60f36d"
+        }
+      ]
+    }
+  ]
+}

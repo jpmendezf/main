@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools.build",
+    "module": "builder-model",
+    "version": "4.2.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "jlvi3e3hkzflnogl672y5wgd2m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools",
+          "module": "annotations",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "builder-model-4.2.0-rc01.jar",
+          "url": "builder-model-4.2.0-rc01.jar",
+          "size": 100468,
+          "sha512": "11dcdaf4aa2d0a8031e78537aa2c93914a469a22a0a114bfd867aaea065db88e70cd8bab8d8c5c02b08f15f05508fdb97b17b3aff3e47073f5a26c7bcc25cdb7",
+          "sha256": "f84afc9610da97af0b321c74e869c0add20f82d8e8bfbd0e8f491f7942414545",
+          "sha1": "94f742694f99de18d0e9832b0e7c2e6bf3d2b7d6",
+          "md5": "2a218c3f801849df9597192f9c5b98b0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "annotations",
+          "version": {
+            "requires": "27.2.0-rc01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "builder-model-4.2.0-rc01.jar",
+          "url": "builder-model-4.2.0-rc01.jar",
+          "size": 100468,
+          "sha512": "11dcdaf4aa2d0a8031e78537aa2c93914a469a22a0a114bfd867aaea065db88e70cd8bab8d8c5c02b08f15f05508fdb97b17b3aff3e47073f5a26c7bcc25cdb7",
+          "sha256": "f84afc9610da97af0b321c74e869c0add20f82d8e8bfbd0e8f491f7942414545",
+          "sha1": "94f742694f99de18d0e9832b0e7c2e6bf3d2b7d6",
+          "md5": "2a218c3f801849df9597192f9c5b98b0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "builder-model-4.2.0-rc01-javadoc.jar",
+          "url": "builder-model-4.2.0-rc01-javadoc.jar",
+          "size": 230167,
+          "sha512": "57776a80f4f8e3eabf0ef66699a1911889f527cba0821f46fcd7cd4b3231df42065f2c7c419848462a798a4be0745b01b8e9a474327ae1748ca652b9be6cd496",
+          "sha256": "f12b8c7c8f7dc8d8d7f0908dd549a5c263e6aca24eb625c2979e5d1ab136518f",
+          "sha1": "48eb45fe070735319b367c3fc9bd32e610609877",
+          "md5": "f2408efafd17f311bb00d1d0caf1998f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "builder-model-4.2.0-rc01-sources.jar",
+          "url": "builder-model-4.2.0-rc01-sources.jar",
+          "size": 129035,
+          "sha512": "60d76858eb9027180684f3d781e37cb44f4b57dc32e508b80e2e27ad28481ea9272f2a79a005c9931d7c5b0ecd64d031df2be1f31df0d3a6612cab5be8f278af",
+          "sha256": "ab647bad135ef8fda93b428ce8c13e28ba24eeb468ea68ebef68e9c5d5275ea2",
+          "sha1": "f0e56eb565b8aa027ccab0d5cd4e738346472369",
+          "md5": "6f9743442657f403c1488f432ebac80a"
+        }
+      ]
+    }
+  ]
+}
